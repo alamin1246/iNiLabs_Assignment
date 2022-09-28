@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'DM Sans', 'Libre Baskerville', sans-serif;
+    font-size: 18px;
+}
+
+.font-libre {
+    font-family: Libre Baskerville;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* all text color and background color*/
+.text-black {
+    color: #00071B;
+}
+
+.bg-black {
+    background-color: #00071B;
+}
+
+.text-black-soft {
+    color: #272727;
+}
+
+.bg-black-soft {
+    background-color: #272727;
+}
+
+.text-green {
+    color: #0A8200;
+}
+
+.bg-green {
+    background-color: #0A8200;
+}
+
+.text-ash {
+    color: #C4C4C4;
+}
+
+.bg-ash {
+    background-color: #C4C4C4;
+}
+
+.text-blue {
+    color: #002482;
+}
+
+.bg-blue {
+    background-color: #002482;
+}
+
+.text-white-soft {
+    color: #F9FAFF;
+}
+
+.bg-white-soft {
+    background-color: #F9FAFF;
+}
+
+.text-soft {
+    color: #565656;
+}
+
+/* font size */
+.font-18 {
+    font-size: 18px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-36 {
+    font-size: 36px;
+}
+
+.font-48 {
+    font-size: 48px;
+}
+
+.font-64 {
+    font-size: 64px;
+}
+
+/* button background */
+.btn-bg {
+    background: #EEEEEE;
+}
+
+/* Banner carousel */
+.bg-banner {
+    background-image: url(../images/banner-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* slick slider */
+.slick-next.slick-arrow,
+.slick-prev.slick-arrow {
+    background-color: #0A8200;
+}
+
+.width-350 {
+    width: 350px;
+}
+
+@media (max-width: 640px) {
+    .footer-logo {
+        width: 100px;
+        height: auto;
+    }
+    .font-64{
+        font-size: 36px;
+    }
+}
