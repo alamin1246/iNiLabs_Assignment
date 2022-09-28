@@ -119,6 +119,110 @@ li {
     width: 350px;
 }
 
+
+/* Trending Section start */
+
+.trending {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.trending>h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #272727;
+    margin-bottom: 27px;
+
+}
+
+/* .star {
+    width: 18.33px;
+    height: 17.43px;
+} */
+
+
+
+.slider-container {
+    position: relative;
+    width: 1920px;
+    height: 500px;
+    cursor: grab;
+}
+
+.trending-images-slides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 40px;
+    pointer-events: none;
+}
+
+.single-trending-details {
+    overflow: hidden;
+}
+
+.single-trending {
+    margin-left: 21px;
+}
+
+.single-trending>p {
+    font-weight: 700;
+    font-size: 24px;
+    color: #272727;
+    margin-top: 10px;
+
+}
+
+.single-trending>h5 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #272727;
+
+}
+
+.single-trending>h5>span {
+    font-weight: 400;
+    font-size: 18px;
+    color: #848484;
+
+}
+
+.single-trending-prices>span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #272727;
+}
+
+.single-trending-prices {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 12px;
+}
+
+
+
+.single-trending-details>img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.single-trending-prices>h4 {
+    font-size: 18px;
+    text-decoration-line: line-through;
+    color: #848484;
+}
+
+.single-trending-prices>h6 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #0A8200;
+}
+
+
 @media (max-width: 640px) {
     .footer-logo {
         width: 100px;
