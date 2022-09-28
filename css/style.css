@@ -222,7 +222,15 @@ li {
     color: #0A8200;
 }
 
+/* footer section*/
+footer {
+    background-color: #00071B;
+}
 
+.footer-logo {
+    width: 76px;
+    height: 65px;
+}
 @media (max-width: 640px) {
     .footer-logo {
         width: 100px;
