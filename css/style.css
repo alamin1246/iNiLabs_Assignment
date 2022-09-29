@@ -231,6 +231,130 @@ footer {
     width: 76px;
     height: 65px;
 }
+/* Deal Section */
+.deals>h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #272727;
+    margin-bottom: 27px;
+
+}
+
+.deals {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.deals-container {
+    position: relative;
+    width: 1920px;
+    height: 569px;
+    cursor: grab;
+}
+
+.deals-images-slides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 40px;
+    pointer-events: none;
+    height: 569px;
+}
+
+.single-deals-details {
+    overflow: hidden;
+}
+
+.single-deals-details>img {
+    width: 489px;
+    height: 298px;
+}
+
+.single-deals {
+    margin-left: 21px;
+    text-align: center;
+}
+
+.single-deals>img {
+    margin-top: 30px;
+    width: 151px;
+    height: 62px;
+}
+
+.single-deals>h1 {
+    margin-top: 43px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #272727;
+}
+
+.single-deals>p {
+    margin-top: 23px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #272727;
+}
+
+/* trending offers
+----------------------- */
+.trending-offers>h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #272727;
+    margin-left: 50px;
+}
+
+.trending-offers {
+    margin-top: 80px;
+}
+
+.button {
+    display: block;
+    /* text-align: center;
+    margin: 10px auto; */
+    padding: 2px 10px;
+    width: 120px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #272727;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    font-weight: 400;
+}
+
+.offer-div {
+    width: 542px;
+    height: 587px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(154, 142, 142);
+}
+
+.offer-div>img {
+    width: 175px;
+    height: 71px;
+}
+
+.offer-div>h1 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 65px;
+    margin-bottom: 48px;
+    color: #272727;
+
+}
+
+.trending-offer {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-top: 30px;
+}
+
 @media (max-width: 640px) {
     .footer-logo {
         width: 100px;
