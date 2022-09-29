@@ -96,7 +96,7 @@ $(".offer").slick({
   ],
 });
 
-// =====Customer review====
+// Customer reviews section
 $(".customer").slick({
   centerMode: true,
   dots: false,

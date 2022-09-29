@@ -424,6 +424,14 @@ footer {
     margin-top: 36px;
     margin-bottom: 80px;
 }
+.design{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.cardDesign{
+    border: 3px solid whitesmoke;
+    
+}
 @media (max-width: 640px) {
     .footer-logo {
         width: 100px;
